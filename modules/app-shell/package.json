@@ -2,16 +2,12 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
-    "podlet": "node podlet.js",
     "test": "web-test-runner \"src/**/*.test.jsx\"",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
-    "@podium/podlet": "4.4.19",
     "classnames": "2.3.1",
-    "cors": "2.8.5",
-    "express": "4.17.1",
     "nav-frontend-core": "6.0.1",
     "nav-frontend-paneler": "3.0.1",
     "nav-frontend-paneler-style": "2.0.1",
