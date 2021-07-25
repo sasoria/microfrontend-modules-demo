@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'https://cdn.skypack.dev/react';
 import './App.css';
-import AppA from 'http://localhost:7100/build/dist/index.js';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <AppA></AppA>
         <h2>Podlet-b</h2>
         <p>
           Edit <code>src/App.jsx</code> and save to reload.
