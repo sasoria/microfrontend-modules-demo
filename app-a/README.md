@@ -1,11 +1,5 @@
 # App-a
 
-## Features
-
-- ❄️ Blazing fast development with Snowpack
-- 📦 Production build with ESbuild
-- ☁️ Skypack imports of react and react-dom
-
 ## Available Scripts
 
 ```
