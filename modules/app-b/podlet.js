@@ -18,16 +18,6 @@ app.use('/build/dist', express.static('./build/dist'));
 
 app.use(podlet.middleware());
 
-app.get(podlet.content(), (req, res) => {
-  res.status(200).podiumSend(`
-        <div id="root"></div>
-    `);
-});
-
-app.get(podlet.manifest(), (req, res) => {
-  res.status(200).send(podlet);
-});
-
 podlet.css({ value: '/build/dist/index.css' });
 podlet.js({ value: '/build/dist/index.js', type: 'module' });
 
