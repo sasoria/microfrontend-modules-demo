@@ -2,12 +2,6 @@
 
 A demo microfrontends. This demo takes advantage of Ecma Script Modules (ESM) to do client-side composition of microfrontends. Podium's Podlet is used for serving assets, but ideally one would have an asset server handling it (see [eik.dev](https://eik.dev/)).
 
-## Features
-
-- ❄️ Blazing fast development with Snowpack
-- 📦 Production build with ESbuild
-- ☁️ Skypack imports of react and react-dom
-
 ## Usage
 
 - Build each microfrontend with `npm run build`
