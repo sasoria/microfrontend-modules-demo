@@ -1,6 +1,3 @@
-const postcss = require('rollup-plugin-postcss');
-const lessLoader = require('rollup-plugin-postcss-webpack-alias-less-loader');
-
 module.exports = {
   mount: {
     public: { url: '/', static: true },
