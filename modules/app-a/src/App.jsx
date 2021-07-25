@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'https://cdn.skypack.dev/react';
-import Panel from 'nav-frontend-paneler';
 import './App.css';
 
 function App() {
@@ -12,9 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Panel>
-          <h2>Podlet-a</h2>
-        </Panel>
+        <h2>App-a</h2>
         <p>
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
