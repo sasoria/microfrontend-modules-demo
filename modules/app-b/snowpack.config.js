@@ -3,13 +3,8 @@ module.exports = {
     public: { url: '/', static: true },
     src: { url: '/dist' },
   },
-  plugins: [
-    '@snowpack/plugin-react-refresh',
-    '@snowpack/plugin-dotenv',
-  ],
-  routes: [
-    /* ... */
-  ],
+  plugins: ['@snowpack/plugin-react-refresh', '@snowpack/plugin-dotenv'],
+  routes: [],
   optimize: {
     bundle: true,
     sourcemap: false,
