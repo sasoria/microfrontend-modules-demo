@@ -4,7 +4,13 @@ module.exports = {
     src: { url: '/dist' },
   },
   plugins: ['@snowpack/plugin-react-refresh', '@snowpack/plugin-dotenv'],
-  routes: [],
+  routes: [
+    {
+      match: 'routes',
+      src: '.*',
+      dest: '/index.html',
+    },
+  ],
   optimize: {
     bundle: true,
     sourcemap: false,
