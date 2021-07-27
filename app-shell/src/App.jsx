@@ -10,6 +10,14 @@ const SecondPage = React.lazy(() =>
   import('http://localhost:7200/build/dist/index.js'),
 );
 
+const ThirdPage = React.lazy(() =>
+  import('http://localhost:7300/build/dist/index.js'),
+);
+
+const FourthPage = React.lazy(() =>
+  import('http://localhost:7400/build/dist/index.js'),
+);
+
 const renderMicrofrontend = (Microfrontend) => {
   return (
     <React.Suspense fallback="Loading...">
@@ -32,6 +40,16 @@ function App() {
           path="/second"
           exact
           render={() => renderMicrofrontend(SecondPage)}
+        />
+        <Route
+          path="/third"
+          exact
+          render={() => renderMicrofrontend(ThirdPage)}
+        />
+        <Route
+          path="/fourth"
+          exact
+          render={() => renderMicrofrontend(FourthPage)}
         />
       </Switch>
     </Router>
