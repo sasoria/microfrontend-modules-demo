@@ -24,26 +24,10 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact render={() => renderMicrofrontend(FirstPage)} />
-        <Route
-          path="/first"
-          exact
-          render={() => renderMicrofrontend(FirstPage)}
-        />
-        <Route
-          path="/second"
-          exact
-          render={() => renderMicrofrontend(SecondPage)}
-        />
-        <Route
-          path="/third"
-          exact
-          render={() => renderMicrofrontend(ThirdPage)}
-        />
-        <Route
-          path="/fourth"
-          exact
-          render={() => renderMicrofrontend(FourthPage)}
-        />
+        <Route path="/first" render={() => renderMicrofrontend(FirstPage)} />
+        <Route path="/second" render={() => renderMicrofrontend(SecondPage)} />
+        <Route path="/third" render={() => renderMicrofrontend(ThirdPage)} />
+        <Route path="/fourth" render={() => renderMicrofrontend(FourthPage)} />
       </Switch>
     </Router>
   );
