@@ -1,7 +1,7 @@
 import React from 'https://cdn.skypack.dev/react';
 import { BrowserRouter as Router } from 'https://cdn.skypack.dev/react-router-dom';
 import { Switch, Route } from 'https://cdn.skypack.dev/react-router-dom';
-import { renderMicrofrontend } from './render';
+import { renderMicrofrontend } from './utils';
 
 const FirstPage = React.lazy(() =>
   import('http://localhost:7100/build/dist/index.js'),
