@@ -13,14 +13,13 @@
     "express": "4.17.1"
   },
   "devDependencies": {
-    "@snowpack/plugin-dotenv": "^2.0.5",
-    "@snowpack/plugin-react-refresh": "^2.4.0",
-    "@snowpack/web-test-runner-plugin": "^0.2.0",
-    "@testing-library/react": "^11.0.0",
-    "@web/test-runner": "^0.12.0",
-    "chai": "^4.2.0",
-    "prettier": "^2.0.5",
-    "snowpack": "3.3.7",
-    "snowpack-plugin-rollup-bundle": "0.4.4"
+    "@snowpack/plugin-dotenv": "2.0.5",
+    "@snowpack/plugin-react-refresh": "2.4.0",
+    "@snowpack/web-test-runner-plugin": "0.2.0",
+    "@testing-library/react": "11.0.0",
+    "@web/test-runner": "0.12.0",
+    "chai": "4.2.0",
+    "prettier": "2.0.5",
+    "snowpack": "3.3.7"
   }
 }

@@ -6,9 +6,9 @@
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
   },
   "devDependencies": {
-    "@snowpack/plugin-dotenv": "^2.0.5",
-    "@snowpack/plugin-react-refresh": "^2.4.0",
-    "prettier": "^2.0.5",
+    "@snowpack/plugin-dotenv": "2.0.5",
+    "@snowpack/plugin-react-refresh": "2.4.0",
+    "prettier": "2.0.5",
     "snowpack": "3.3.7"
   }
 }
