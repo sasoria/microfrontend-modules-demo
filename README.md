@@ -1,6 +1,6 @@
 # Microfrontend-modules-demo
 
-This demo takes advantage of Ecma Script Modules (ESM) to do client-side composition of microfrontends. Express is used for serving assets, but ideally one would have a dedicated asset server handling it (see [eik.dev](https://eik.dev/)).
+This demo takes advantage of EcmaScript Modules (ESM) to do client-side composition of microfrontends. Express is used for serving assets, but ideally one would have a dedicated asset server handling it (see [eik.dev](https://eik.dev/)).
 
 ## Features
 
