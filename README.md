@@ -10,7 +10,7 @@ This demo takes advantage of EcmaScript Modules (ESM) to do client-side composit
 ## Usage
 
 - Build each microfrontend with `npm run build`
-- Start each microfrontend with `npm run podlet`
+- Start each microfrontend with `npm run server`
 - Start the shell with `npm start`
 
 The app should now be available on `http://localhost:8080`.
