@@ -1,4 +1,4 @@
-# App-shell
+# Shell
 
 ## Features
 
