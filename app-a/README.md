@@ -21,7 +21,7 @@ $ npm run build
 Builds a static copy of your site to the `build/` folder.
 
 ```
-$ npm run podlet
+$ npm run server
 ```
 
-Starts the Podlet server at http://localhost:7001.
+Starts the server at http://localhost:7001.

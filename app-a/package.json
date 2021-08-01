@@ -2,13 +2,12 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
-    "podlet": "node podlet.js",
+    "podlet": "node server.js",
     "test": "web-test-runner \"src/**/*.test.jsx\"",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
-    "@podium/podlet": "4.4.19",
     "cors": "2.8.5",
     "express": "4.17.1"
   },
