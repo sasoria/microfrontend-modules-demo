@@ -17,4 +17,4 @@ The app should now be available on `http://localhost:8080`.
 
 ## Shared dependencies
 
-Each podlet shares react dependencies through absolute ESM imports that are cached in the browser. They fetch both react and react-dom from Skypack, thus reducing the bundle size considerably.
+Each app shares react dependencies through absolute ESM imports that are cached in the browser. They attempt to fetch both react and react-dom from Skypack, thus reducing the bundle size considerably.
